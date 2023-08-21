@@ -1,6 +1,6 @@
 # OD-fetch: pdf downloader for OnlineDoctor reports
 
-Script to retrieve pdf reports and patient information from OnlineDoctor for dermatologists with an OnlineDoctor account.
+OD-fetch is a script to retrieve pdf reports and patient information from OnlineDoctor for dermatologists with an OnlineDoctor account. It is basically a website scraper with some state keeping and pdf download.
 
 OnlineDoctor is an online service available in Germany for the diagnosis of skin problems by dermatologists. This software is not part of OnlineDoctor or affiliated with OnlineDoctor. The script was created to improve our own workflow with OnlineDoctor, especially for downloading pdf reports and storing them in our internal patient records. At our office, we use OD-fetch with the Tomedo practice managemement software.
 
