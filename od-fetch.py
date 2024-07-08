@@ -221,7 +221,7 @@ def iterate_archive_entries(json_object):
                         date_tokens = row_dict['report_date'].split('.')
                         pdf_date = date_tokens[2] + "-" + date_tokens[1] + "-" + date_tokens[0]
 
-                        row_dict['pdf_filename'] = pdf_date + "_" + row_dict['name'].replace(" ", "-") + "_" + row_dict[
+                        row_dict['pdf_filename'] = pdf_date + "_" + row_dict['name'].replace(" ", "-").replace("/","-") + "_" + row_dict[
                             'id'] + ".pdf"
                         pdf_url = ROOT_URL + archive_row['link']['path']
                         row_dict['link'] = pdf_url
